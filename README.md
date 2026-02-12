@@ -37,7 +37,7 @@ A modern, responsive landing page for a fictional landscaping company built with
 
 - Node.js 18+ 
 - npm or yarn
-- OpenAI API key
+- GROQ API key
 
 ### Installation
 
@@ -54,7 +54,7 @@ A modern, responsive landing page for a fictional landscaping company built with
 
 3. Create a `.env.local` file in the project root:
    ```env
-   OPENAI_API_KEY=your-openai-api-key-here
+   GROQ_API_KEY=your-groq-api-key-here
    ```
 
 4. Start the development server:
