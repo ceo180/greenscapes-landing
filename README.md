@@ -18,7 +18,7 @@ A modern, responsive landing page for a fictional landscaping company built with
 
 ### 💬 AI-Powered Chat Widget
 - Floating chat button (bottom-right corner)
-- Real-time AI responses powered by OpenAI
+- Real-time AI responses powered by GROQ AI
 - Streaming text responses
 - Message history with user/AI differentiation
 - Sales-focused system prompt for landscaping inquiries
@@ -28,7 +28,7 @@ A modern, responsive landing page for a fictional landscaping company built with
 - **Framework**: Next.js 14 (App Router)
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
-- **AI**: Vercel AI SDK + OpenAI
+- **AI**: Vercel AI SDK + GROQ AI
 - **Images**: Next.js Image Optimization with Unsplash
 
 ## Getting Started
@@ -98,7 +98,7 @@ Handles chat messages and returns AI-streamed responses.
 }
 ```
 
-**Response:** Streamed text response from OpenAI.
+**Response:** Streamed text response from GROQ AI.
 
 ## Chat Widget System Prompt
 
@@ -121,7 +121,7 @@ The AI assistant is configured to:
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `OPENAI_API_KEY` | Your OpenAI API key | Yes |
+| `OPENAI_API_KEY` | Your GROQ AI API key | Yes |
 
 ## Customization
 
